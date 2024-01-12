@@ -7,7 +7,7 @@ export default {
       'white': '#FFFFFF',
       'black': '#000000',
       'grey': '#E2E2E2',
-      'dark': '#151515',
+      'black-moto': '#151515',
       'yellow': '#E2E200',
       'grey-border': '#DFDDDA',
       'grey-text': '#A1A1A1',
@@ -21,6 +21,7 @@ export default {
     },
     fontFamily: {
       'exo': ['"Exo 2"', 'sans-serif'],
+      'rubik': ['"Rubik"', 'sans-serif'],
     }
   },
   plugins: [],

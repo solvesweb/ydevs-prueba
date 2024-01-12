@@ -5,7 +5,7 @@ import { Services } from "./components/Services";
 function App() {
   return (
     <>
-      <main className="font-exo flex flex-col justify-center">
+      <main className="max-w-screen-2xl mx-auto px-5 lg:px-20 pt-[68px] md:pt-[83px]">
         <Hero />
         <Catalogue />
         <Services />

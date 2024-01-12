@@ -1,0 +1,38 @@
+{
+  "models": [
+    {
+      "id": 0,
+      "name": "Zontes e350 2024",
+      "price": 4.999,
+      "img": "./src/assets/e350.png",
+      "promo": true,
+      "colors": ["black-moto", "white"],
+      "oldPrice": 5.999
+    },
+    {
+      "id": 1,
+      "name": "Zontes zt 125 2024",
+      "price": 4.999,
+      "img": "./src/assets/zt125.png",
+      "promo": false,
+      "colors": ["black-moto", "white"]
+    },
+    {
+      "id": 2,
+      "name": "Zontes z2 125 2024",
+      "price": 4.999,
+      "img": "./src/assets/zt125_blue.png",
+      "promo": false,
+      "colors": ["blue-moto", "yellow-moto"]
+    },
+    {
+      "id": 3,
+      "name": "Zontes T350 X 2024",
+      "price": 4.999,
+      "img": "./src/assets/t350.png",
+      "promo": true,
+      "colors": ["black-moto", "white"],
+      "oldPrice": 5.999
+    }
+  ]
+}
