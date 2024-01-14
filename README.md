@@ -32,7 +32,7 @@
 *Catálogo de las diferentes motos disponibles.*
 
 ![Captura de Pantalla 2](public/assets/screenshots/sc_services.png)
-*Servicios ofrecios.*
+*Servicios ofrecidos.*
 
 ## Contribuciones
 
