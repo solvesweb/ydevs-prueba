@@ -18,21 +18,6 @@ export const HeroSlide2 = () => {
         <button className="w-32 p-2 font-bold text-base text-black italic uppercase bg-yellow mb-14">
           Pide tu cita
         </button>
-
-        {/* <div className="flex flex-wrap justify-left  gap-16">
-          <div>
-            <p className="uppercase font-bold italic">Nueva e350</p>
-            <p>Spinner</p>
-          </div>
-          <div>
-            <p className="uppercase font-bold italic">Cita en taller</p>
-            <p>Spinner</p>
-          </div>
-          <div>
-            <p className="uppercase font-bold italic">Scooters Zontes</p>
-            <p>Spinner</p>
-          </div>
-        </div> */}
       </div>
 
       <div></div>
