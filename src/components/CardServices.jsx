@@ -3,7 +3,7 @@ export const CardServices = ({ title, bgImage }) => {
     <div className="cursor-pointer">
       <div
         className="relative bg-cover bg-center text-white h-36"
-        style={{ backgroundImage: `url(./src/assets/${bgImage}.png)` }}
+        style={{ backgroundImage: `url(./public/assets/${bgImage}.png)` }}
       >
         
         <div className="absolute inset-0 bg-black bg-opacity-50 z-0" ></div>

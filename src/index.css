@@ -121,13 +121,6 @@ b {
   }  
 }
 
-@media (min-width: 1280px) {
-  .swiper-pagination-bullet {
-    top: -200px;
-    
-  }
-}
-
 @media (min-width: 1840px) {
   .swiper-pagination-bullet {
     top: -260px;  

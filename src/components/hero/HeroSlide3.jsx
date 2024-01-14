@@ -2,7 +2,7 @@ export const HeroSlide3 = () => {
   return (
     <section
       className="flex min-h-screen bg-cover px-10 lg:px-20"
-      style={{ backgroundImage: `url(./src/assets/hero_slide.png)` }}
+      style={{ backgroundImage: `url(./public/assets/hero_slide.png)` }}
     >
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-65"></div>
       <div className="flex flex-col justify-center text-white z-10">
