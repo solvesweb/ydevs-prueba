@@ -1,6 +1,7 @@
 export const Hero = () => {
   return (
     <section className="flex min-h-screen">
+      
       <div className="flex flex-col justify-center w-1/2">
         <h2 className="uppercase font-bold italic">Novedades 2024</h2>
         <h1 className="text-7xl font-bold italic uppercase">Nueva E350</h1>

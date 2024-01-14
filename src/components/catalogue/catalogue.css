@@ -1,0 +1,10 @@
+.swiper-scrollbar {
+    background-color: #dfddda;
+    left: 0;
+  }
+  
+  .swiper-scrollbar-drag {
+    background-color: #151515;
+  }
+  
+  .swiper-scrollbar.swiper-scrollbar-horizontal{bottom: 0; height: 2px; width: 100%; left: 0; cursor: pointer;}

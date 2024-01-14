@@ -1,3 +1,137 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Catálogo */
+
+
+.swiper-scrollbar {
+  background-color: #dfddda;
+  left: 0;
+}
+
+.swiper-scrollbar-drag {
+  background-color: #151515;
+}
+
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  left: 0;
+  cursor: pointer;
+}
+
+/* Hero */
+
+.swiper-pagination-bullets {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  font-weight: bold;
+  color: #fff;
+  
+}
+
+.swiper-pagination-bullet {
+  position: relative;
+  margin-top: 4rem;
+  left: 2.5rem;
+  top: -60px;
+  border-radius: 0;
+  width: 70px;
+  height: 50px;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #fff;
+  background-color: transparent;
+  opacity: 1;
+}
+em {
+  position: relative;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  width: content;
+  top: -20px;
+}
+i {
+  position: absolute;
+  bottom: 16px;
+  left: 0;
+  z-index: 1;
+  width: 70px;
+  height: 2px;
+  background-color: gray;
+}
+b {
+  position: absolute;
+  bottom: 16px;
+  left: 0;
+  z-index: 2;
+  width: 0%;
+  height: 2px;
+  background-color: white;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: transparent;
+  b {
+    animation-name: countingBar;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes countingBar {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@media (min-width: 640px) {
+  .swiper-pagination-bullet{
+    width: 150px;
+    top: -80px;
+  }
+  em {
+    top: auto;
+    position: absolute;
+    width: 150px;
+  }
+  i {
+    width: 150px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .swiper-pagination-bullet {
+    width: 150px;
+    top: -120px;
+    left: 5rem;
+  }  
+}
+
+@media (min-width: 1280px) {
+  .swiper-pagination-bullet {
+    top: -200px;
+    
+  }
+}
+
+@media (min-width: 1840px) {
+  .swiper-pagination-bullet {
+    top: -260px;  
+   
+  }
+  
+}

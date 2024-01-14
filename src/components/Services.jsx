@@ -9,7 +9,7 @@ const services = [
 
 export const Services = () => {
   return (
-    <section className="flex flex-col ">
+    <section className="flex flex-col my-14 px-5 sm:px-10 lg:px-20">
       <div className="flex flex-col justify-center items-center text-center text-balance">
         <h3 className="uppercase font-bold italic text-yellow mb-2">
           Concesionario oficial
@@ -17,7 +17,7 @@ export const Services = () => {
         <h2 className="text-5xl font-bold italic uppercase mb-7">
           Motos.tech Valencia
         </h2>
-        <p className="text-pretty font-rubik font-light sm:w-3/4 lg:w-2/3">
+        <p className="text-pretty font-rubik font-light sm:w-3/4 lg:w-2/3 mb-10">
           Lorem ipsum dolor sit amet. In iste nisi ea internos quia rem odio
           eaque sit nisi odio sed minus totam et nostrum iusto. Qui aliquam
           adipisci sed ipsum quia ut sunt totam est mollitia voluptatem ea rerum

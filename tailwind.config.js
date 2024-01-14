@@ -14,7 +14,6 @@ export default {
       'blue-moto': '#2582CA',
       'yellow-moto': '#EBF227',
       'red-moto': '#F94711'
-
     },
     extend: {
      
